@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vidio Page | Circode</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- -------------header navigation-------------- -->
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="./images/menu.png" id="menu-btn">
+            <a href="#" class="flex-div"><i class="fas fa-play-circle" id="play-btn"></i><h1 class="logo"><span>Cir</span>Tude</h1></a>
+        </div>
+        <div class="nav-mid flex-div">
+            <div class="search-box flex-div">
+                <input type="search" class="search-tool" placeholder="Type any thing here....">
+                <img src="./images/search.png">
+
+                <div class="search-form">
+                    <input type="search" id="search-box" placeholder="search here.....">
+                    <label for="serch-box" class="fas fa-search"></label>
+                </div>
+            </div>
+            <img src="./images/voice-search.png" class="mic-btn">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="./images/search.png" class="search-mobile">
+            <img src="./images/upload.png">
+            <img src="./images/more.png">
+            <img src="./images/notification.png">
+            <img src="./images/Jack.png" class="user-icon">
+        </div>
+    </nav>
+
+
+    <div class="container play-container">
+        <div class="row">
+            <div class="play-vid">
+                <video controls autoplay muted loop>
+                    <source src="./images/video.mp4" type="video/mp4">
+                </video>
+
+                <div class="tags">
+                    <a href="">#coding</a><a href="">#web</a><a href="">#circode</a>
+                </div>
+                <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, minus.</h3>
+
+                <div class="play-vid-info">
+                    <p>12225 views &bull; 2 day ago</p>
+                    <div>
+                        <a href=""><img src="./images/like.png" alt="">125</a>
+                        <a href=""><img src="./images/dislike.png" alt="">125</a>
+                        <a href=""><img src="./images/share.png" alt="">125</a>
+                        <a href=""><img src="./images/save.png" alt="">125</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="publisher">
+                    <img src="./images/Jack.png">
+
+                    <div>
+                        <p>Circode</p>
+                        <span>500k Subscribers</span>
+                    </div>
+
+                    <button id="sub-btn" type="button">Subscribe</button>
+                </div>
+
+                <div class="vid-description">
+                    <p>Channel That Makes Learning Easy</p>
+                    <p>Subscribe On Circode To Watch More Tutorials on Web Dev</p>
+                </div>
+
+                <hr>
+
+                <p class="comments-num">124 Comment</p>
+
+                <div class="add-comment">
+                    <img src="./images/megan.png" class="user-icon">
+
+                    <input type="text" placeholder="Write your comment here....">
+                </div>
+
+            <div class="vid-comment">
+                <div class="old-comment">
+                    <img src="./images/simon.png">
+                    <div class="comment-content">
+                        <div class="user-info-comment">
+                            <h3>Simon Jack</h3>
+                            <p>2 days ago</p>
+                        </div>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, tempora voluptas! Quo expedita quod 
+                            repellat iure nisi voluptas sunt dolor perferendis nihil molestias obcaecati, porro nam est optio reiciendis exercitationem.</p>
+                   
+                            <div class="comment-buttuns">
+                                <a href=""><img src="./images/like.png">15</a>
+                                <a href=""><img src="./images/dislike.png">3</a>
+                                <p id = "reply">Reply</p>
+                                <span id = "all-replys">All Reply</span>
+                            </div>
+                            <div class="add-comment-to-comment">
+                                <textarea id="reply-space" placeholder="Write your comment here...."></textarea>
+                                <button class="Comment-to-comment">Comment</button>
+                            </div>
+                        </div>
+                </div>
+                <div class="old-comment">
+                    <img src="./images/cameron.png">
+                    <div class="comment-content">
+                        <div class="user-info-comment">
+                            <h3>Cameron Simon</h3>
+                            <p>2 days ago</p>
+                        </div>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, tempora voluptas! Quo expedita quod 
+                            repellat iure nisi voluptas sunt dolor perferendis nihil molestias obcaecati, porro nam est optio reiciendis exercitationem.</p>
+                   
+                            <div class="comment-buttuns">
+                                <a href=""><img src="./images/like.png">15</a>
+                                <a href=""><img src="./images/dislike.png">3</a>
+                                <p id = "reply">Reply</p>
+                                <span id = "all-replys">All Reply</span>
+                            </div>
+
+                        </div>
+                </div>
+                <div class="old-comment">
+                    <img src="./images/Jack.png">
+                    <div class="comment-content">
+                        <div class="user-info-comment">
+                            <h3>Jack Simon</h3>
+                            <p>2 days ago</p>
+                        </div>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, tempora voluptas! Quo expedita quod 
+                            repellat iure nisi voluptas sunt dolor perferendis nihil molestias obcaecati, porro nam est optio reiciendis exercitationem.</p>
+                   
+                            <div class="comment-buttuns">
+                                <a href=""><img src="./images/like.png">15</a>
+                                <a href=""><img src="./images/dislike.png">3</a>
+                                <p id = "reply">Reply</p>
+                                <span id = "all-replys">All Reply</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="old-comment">
+                    <img src="./images/cameron.png">
+                    <div class="comment-content">
+                        <div class="user-info-comment">
+                            <h3>cameron Simon</h3>
+                            <p>2 days ago</p>
+                        </div>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, tempora voluptas! Quo expedita quod 
+                            repellat iure nisi voluptas sunt dolor perferendis nihil molestias obcaecati, porro nam est optio reiciendis exercitationem.</p>
+                   
+                            <div class="comment-buttuns">
+                                <a href=""><img src="./images/like.png">15</a>
+                                <a href=""><img src="./images/dislike.png">3</a>
+                                <p id = "reply">Reply</p>
+                                <span id = "all-replys">All Reply</span>
+                            </div>
+                        </div>
+                </div>
+                <div class="old-comment">
+                    <img src="./images/megan.png">
+                    <div class="comment-content">
+                        <div class="user-info-comment">
+                            <h3>megan cameron</h3>
+                            <p>2 days ago</p>
+                        </div>
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, tempora voluptas! Quo expedita quod 
+                            repellat iure nisi voluptas sunt dolor perferendis nihil molestias obcaecati, porro nam est optio reiciendis exercitationem.</p>
+                   
+                            <div class="comment-buttuns">
+                                <a href=""><img src="./images/like.png">15</a>
+                                <a href=""><img src="./images/dislike.png">3</a>
+                                <p id = "reply">Reply</p>
+                                <span id = "all-replys">All Reply</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            </div>
+            <div class="right-sidbar">
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail4.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail5.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail6.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail7.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail8.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail4.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail5.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail6.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail2.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail4.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail1.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail2.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+                <div class="side-vid-list">
+                    <a href="vid-page.html" class="small-thumbnail"><img src="./images/thumbnail3.png" class="thumbnail"></a>
+                    <div class="vid-info">
+                            <a href="vid-page.html">Best Channel To Learn Coding
+                                 That Help You To Be Web Developer</a>
+        
+                                 <p>Circode</p>
+                                 <p>15k Views &bull; 2 days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="my-work">
+                <h3>Made With <span> &hearts; </span>by A.M</h3>
+            </div>
+        </footer>
+    </div>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
